@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ShapeTextView">
+        <!--圆角-->
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="topLeftCornerRadius" format="dimension" />
+        <attr name="topRightCornerRadius" format="dimension" />
+        <attr name="bottomLeftCornerRadius" format="dimension" />
+        <attr name="bottomRightCornerRadius" format="dimension" />
+
+
+        <!--正常情况下的背景颜色-->
+        <attr name="NormalBgColor" format="color" />
+        <!--按下情况下的背景颜色-->
+        <attr name="PressBgColor" format="color" />
+        <!--正常情况下的文字颜色-->
+        <attr name="NormalTextColor" format="color" />
+        <!--按下情况下的文字颜色-->
+        <attr name="PressTextColor" format="color" />
+
+        <!--描边线的正常颜色-->
+        <attr name="StrokeNormalColor" format="color" />
+        <!--描边线的按压颜色-->
+        <attr name="StrokePressColor" format="color" />
+        <!--描边线的宽度-->
+        <attr name="StrokeWidth" format="dimension" />
+
+        <!--虚线的间隙-->
+        <attr name="dashGap" format="dimension"></attr>
+        <!--虚线的宽度-->
+        <attr name="dashWidth" format="dimension"></attr>
+
+
+        <attr name="shapeType" format="enum">
+            <enum name="rectangle" value="0" />
+            <enum name="oval" value="1" />
+            <enum name="line" value="2" />
+            <enum name="ring" value="3" />
+        </attr>
+
+    </declare-styleable>
+
+</resources>
